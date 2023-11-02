@@ -13,6 +13,7 @@ import SuccessScreen from "../screens/successScreen";
 import CartScreen from "../screens/CartScreen";
 import CheckoutScreens from "../screens/checkoutScreens";
 import ProfileScreen from "../screens/profileScreen";
+import PersonalInfoScreens from "../screens/personalInfoScreens";
 
 const Stack = createNativeStackNavigator();
 
@@ -87,6 +88,11 @@ export default function Navigation() {
           options={{ headerShown: false }}
           name="Profile"
           component={ProfileScreen}
+        />
+        <Stack.Screen
+          options={{ headerShown: false }}
+          name="Personal"
+          component={PersonalInfoScreens}
         />
       </Stack.Navigator>
     </NavigationContainer>
