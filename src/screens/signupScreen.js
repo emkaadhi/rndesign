@@ -15,7 +15,7 @@ export default function SignupScreen() {
         <Image source={require("../../assets/images/logo.png")} />
       </View>
       <View className="px-10">
-        <Text className="font-bold text-3xl mt-20">Signup</Text>
+        <Text className="font-bold text-3xl mt-10">Signup</Text>
         <Text className="font-medium text-md text-gray-500">
           Create new Account
         </Text>

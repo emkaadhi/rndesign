@@ -44,7 +44,7 @@ export default function CartScreen() {
             </View>
           </View>
         </View>
-        <View className="mx-5 mt-5">
+        <View className="mx-5">
           <Text className="my-5 text-2xl font-bold">My Cart</Text>
           <View className="mb-3">
             <View
@@ -103,11 +103,11 @@ export default function CartScreen() {
                   className="h-24 w-24 rounded-2xl"
                 />
                 <View className="flex space-y-2">
-                  <Text>Roller Rabbit</Text>
-                  <Text>Vado Odelle dress</Text>
+                  <Text className="text-lg font-bold">Roller Rabbit</Text>
+                  <Text className="text-xs">Vado Odelle dress</Text>
                   <View className="flex-row justtify-between items-center">
-                    <Text style={{ marginRight: 100 }}>$ 198.00</Text>
-                    <View className="bg-slate-100 p-1 rounded-3xl">
+                    <Text style={{ marginRight:75 }}  className="text-lg font-bold">$ 198.00</Text>
+                    <View className="bg-transparent p-1 rounded-3xl">
                       <View className="flex-row items-center space-x-1">
                         <TouchableOpacity>
                           <Icon.MinusCircle
@@ -138,6 +138,7 @@ export default function CartScreen() {
               }}
             />
           </View>
+          
         </View>
         <View className="mt-3 mx-5">
           <View className="p-3 rounded-2xl px-5 border border-1 border-gray-200">
@@ -177,9 +178,9 @@ export default function CartScreen() {
           </View>
         </View>
         <View className="mt-5 px-5">
-          <View className="p-3 rounded-full bg-black py-5">
+          <TouchableOpacity onPress={()=>navigation.navigate('Checkout')} className="p-3 rounded-full bg-black py-5">
             <Text className="text-white text-center tracking-wider text-lg font-bold">Process to Checkout</Text>
-          </View>
+          </TouchableOpacity>
         </View>
       </ScrollView>
     </View>

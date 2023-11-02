@@ -13,7 +13,7 @@ export default function LoginScreen() {
         <Image source={require("../../assets/images/logo.png")} />
       </View>
       <View className="px-10">
-        <Text className="font-bold text-3xl mt-20">Welcome</Text>
+        <Text className="font-bold text-3xl mt-10">Welcome</Text>
         <Text className="font-medium text-md text-gray-500">
           Please Login or Sign Up to continue our app
         </Text>

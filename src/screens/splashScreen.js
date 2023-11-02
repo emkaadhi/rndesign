@@ -34,7 +34,7 @@ export default function SplashScreen() {
             <Icon.MinusCircle height="30" width="30" stroke="black" strokeWidth={2} />
             <TouchableOpacity onPress={()=>x.navigate('Home')}>
 
-            <Icon.ArrowRightCircle height="30" width="30" stroke="black" strokeWidth={2} />
+            <Icon.CevronRight height="30" width="30" stroke="black" strokeWidth={2} />
             </TouchableOpacity>
         </View>
       </View>

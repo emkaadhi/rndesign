@@ -7,7 +7,7 @@ import ProductCard from "../component/productCard";
 export default function CategoryScreen() {
   const x = useNavigation();
   return (
-    <View className="flex-1 mx-5 pt-10">
+    <View className="flex-1 mx-5 pt-6">
       <ScrollView
         showsVerticalScrollIndicator={false}
         contentContainerStyle={{ paddingBottom: 50 }}

@@ -11,6 +11,8 @@ import LoginScreen from "../screens/loginScreen";
 import SignupScreen from "../screens/signupScreen";
 import SuccessScreen from "../screens/successScreen";
 import CartScreen from "../screens/CartScreen";
+import CheckoutScreens from "../screens/checkoutScreens";
+import ProfileScreen from "../screens/profileScreen";
 
 const Stack = createNativeStackNavigator();
 
@@ -75,6 +77,16 @@ export default function Navigation() {
           options={{ headerShown: false }}
           name="Cart"
           component={CartScreen}
+        />
+        <Stack.Screen
+          options={{ headerShown: false }}
+          name="Checkout"
+          component={CheckoutScreens}
+        />
+        <Stack.Screen
+          options={{ headerShown: false }}
+          name="Profile"
+          component={ProfileScreen}
         />
       </Stack.Navigator>
     </NavigationContainer>

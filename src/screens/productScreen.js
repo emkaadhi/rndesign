@@ -17,18 +17,18 @@ export default function ProductScreen() {
         <Image
           source={require("../../assets/images/l7.jpg")}
           className="w-full"
-          style={{ height: 450 }}
+          style={{ height: 425 }}
         />
         <TouchableOpacity
           onPress={() => navigation.goBack()}
-          className="absolute top-14 left-4 bg-gray-50 p-2 rounded-full"
+          className="absolute top-10 left-4 bg-gray-50 p-2 rounded-full"
         >
           <Icon.ArrowLeft strokeWidth={3} stroke={`black`} />
         </TouchableOpacity>
       </View>
       <View
         style={{ borderTopLeftRadius: 40, borderTopRightRadius: 40 }}
-        className="bg-white -mt-12 pt-6"
+        className="bg-white -mt-20 pt-6"
       >
         <View className="px-5">
           <View className="flex-row justify-between items-center">

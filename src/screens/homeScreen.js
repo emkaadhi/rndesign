@@ -17,7 +17,7 @@ export default function HomeScreen() {
   const navigation = useNavigation()
 
   return (
-    <View className="flex-1 mx-5 pt-10">
+    <View className="flex-1 mx-5 pt-6">
       <ScrollView className="" showsVerticalScrollIndicator={false}>
         <View className="flex-row justify-between items-center">
           <View className="bg-slate-600  p-3 rounded-full">
@@ -28,7 +28,7 @@ export default function HomeScreen() {
             className="h-12 w-12 rounded-full"
           />
         </View>
-        <View className="mt-4">
+        <View className="mt-3">
           <Text className="text-3xl" >Welcome ,</Text>
           <Text className="text-3xl text-gray-400" >
             Our Fashion App
@@ -43,7 +43,7 @@ export default function HomeScreen() {
           </View>
         </View>
         <View
-          className="bg-slate-200 p-3 rounded-2xl mt-8"
+          className="bg-slate-200 p-3 rounded-2xl mt-3"
           style={styles.shadow}
         >
           <View className="flex-row items-center ">
@@ -64,7 +64,7 @@ export default function HomeScreen() {
           </View>
         </View>
         {/* categories */}
-        <View className="mt-8">
+        <View className="mt-3">
           <Text className="text-3xl">Categories</Text>
           <ScrollView
             horizontal
@@ -82,7 +82,7 @@ export default function HomeScreen() {
             })}
           </ScrollView>
         </View>
-        <View className="mt-4 flex-row justify-between items-center">
+        <View className="mt-3 flex-row justify-between items-center">
           <Text className="text-xl">Top Dresses</Text>
           <Text className="text-md text-gray-600">View All</Text>
         </View>
